@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774DE637272BCB6C008FB06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE636272BCB6C008FB06B /* AppDelegate.swift */; };
+		774DE639272BCB6C008FB06B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE638272BCB6C008FB06B /* SceneDelegate.swift */; };
+		774DE63B272BCB6C008FB06B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE63A272BCB6C008FB06B /* ViewController.swift */; };
+		774DE63E272BCB6C008FB06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774DE63C272BCB6C008FB06B /* Main.storyboard */; };
+		774DE640272BCB71008FB06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774DE63F272BCB71008FB06B /* Assets.xcassets */; };
+		774DE643272BCB71008FB06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774DE641272BCB71008FB06B /* LaunchScreen.storyboard */; };
+		774DE64E272BCB72008FB06B /* ml_kit_firebase_issue_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE64D272BCB72008FB06B /* ml_kit_firebase_issue_sampleTests.swift */; };
+		774DE658272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE657272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITests.swift */; };
+		774DE65A272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774DE659272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITestsLaunchTests.swift */; };
+		915A97A4272BCD5A0012D349 /* Test_Framework_1.docc in Sources */ = {isa = PBXBuildFile; fileRef = 915A97A3272BCD5A0012D349 /* Test_Framework_1.docc */; };
+		915A97AA272BCD5A0012D349 /* Test_Framework_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */; };
+		915A97B1272BCD5A0012D349 /* Test_Framework_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A97B0272BCD5A0012D349 /* Test_Framework_1Tests.swift */; };
+		915A97B2272BCD5A0012D349 /* Test_Framework_1.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A97A2272BCD5A0012D349 /* Test_Framework_1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915A97B5272BCD5A0012D349 /* Test_Framework_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */; };
+		915A97B6272BCD5A0012D349 /* Test_Framework_1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8D3BDCD9A262FF5493BEDB0 /* Pods_Test_Framework_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11350D2503716E90E77E94A0 /* Pods_Test_Framework_1.framework */; };
+		F5B96E1F779D96096B5BA50A /* Pods_ml_kit_firebase_issue_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8C3F0CB5A4066E9E04B57 /* Pods_ml_kit_firebase_issue_sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		774DE64A272BCB72008FB06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774DE62B272BCB6C008FB06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774DE632272BCB6C008FB06B;
+			remoteInfo = "ml-kit-firebase-issue-sample";
+		};
+		774DE654272BCB72008FB06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774DE62B272BCB6C008FB06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774DE632272BCB6C008FB06B;
+			remoteInfo = "ml-kit-firebase-issue-sample";
+		};
+		915A97AB272BCD5A0012D349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774DE62B272BCB6C008FB06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915A979F272BCD5A0012D349;
+			remoteInfo = Test_Framework_1;
+		};
+		915A97AD272BCD5A0012D349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774DE62B272BCB6C008FB06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774DE632272BCB6C008FB06B;
+			remoteInfo = "ml-kit-firebase-issue-sample";
+		};
+		915A97B3272BCD5A0012D349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 774DE62B272BCB6C008FB06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915A979F272BCD5A0012D349;
+			remoteInfo = Test_Framework_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		915A97B7272BCD5A0012D349 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				915A97B6272BCD5A0012D349 /* Test_Framework_1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11350D2503716E90E77E94A0 /* Pods_Test_Framework_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Framework_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774DE633272BCB6C008FB06B /* ml-kit-firebase-issue-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ml-kit-firebase-issue-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774DE636272BCB6C008FB06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		774DE638272BCB6C008FB06B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		774DE63A272BCB6C008FB06B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		774DE63D272BCB6C008FB06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		774DE63F272BCB71008FB06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		774DE642272BCB71008FB06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		774DE644272BCB71008FB06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774DE649272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ml-kit-firebase-issue-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774DE64D272BCB72008FB06B /* ml_kit_firebase_issue_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ml_kit_firebase_issue_sampleTests.swift; sourceTree = "<group>"; };
+		774DE653272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ml-kit-firebase-issue-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		774DE657272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ml_kit_firebase_issue_sampleUITests.swift; sourceTree = "<group>"; };
+		774DE659272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ml_kit_firebase_issue_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		901C6C88EFAD7FBA1CD1F827 /* Pods-Test_Framework_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Framework_1.debug.xcconfig"; path = "Target Support Files/Pods-Test_Framework_1/Pods-Test_Framework_1.debug.xcconfig"; sourceTree = "<group>"; };
+		915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test_Framework_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915A97A2272BCD5A0012D349 /* Test_Framework_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_Framework_1.h; sourceTree = "<group>"; };
+		915A97A3272BCD5A0012D349 /* Test_Framework_1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Test_Framework_1.docc; sourceTree = "<group>"; };
+		915A97A9272BCD5A0012D349 /* Test_Framework_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_Framework_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		915A97B0272BCD5A0012D349 /* Test_Framework_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Framework_1Tests.swift; sourceTree = "<group>"; };
+		A418EBBEFDE1603C268F896B /* Pods-ml-kit-firebase-issue-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ml-kit-firebase-issue-sample.debug.xcconfig"; path = "Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A6D6C54752DF6B7FB080FC /* Pods-ml-kit-firebase-issue-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ml-kit-firebase-issue-sample.release.xcconfig"; path = "Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample.release.xcconfig"; sourceTree = "<group>"; };
+		C5D8C3F0CB5A4066E9E04B57 /* Pods_ml_kit_firebase_issue_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ml_kit_firebase_issue_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB704095BD8820CCFA975CC0 /* Pods-Test_Framework_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Framework_1.release.xcconfig"; path = "Target Support Files/Pods-Test_Framework_1/Pods-Test_Framework_1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		774DE630272BCB6C008FB06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B96E1F779D96096B5BA50A /* Pods_ml_kit_firebase_issue_sample.framework in Frameworks */,
+				915A97B5272BCD5A0012D349 /* Test_Framework_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE646272BCB72008FB06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE650272BCB72008FB06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A979D272BCD5A0012D349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D3BDCD9A262FF5493BEDB0 /* Pods_Test_Framework_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A97A6272BCD5A0012D349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915A97AA272BCD5A0012D349 /* Test_Framework_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B3296E53D0A3A39CF8AAC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A418EBBEFDE1603C268F896B /* Pods-ml-kit-firebase-issue-sample.debug.xcconfig */,
+				B5A6D6C54752DF6B7FB080FC /* Pods-ml-kit-firebase-issue-sample.release.xcconfig */,
+				901C6C88EFAD7FBA1CD1F827 /* Pods-Test_Framework_1.debug.xcconfig */,
+				FB704095BD8820CCFA975CC0 /* Pods-Test_Framework_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		606315881CC226104E4110D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8C3F0CB5A4066E9E04B57 /* Pods_ml_kit_firebase_issue_sample.framework */,
+				11350D2503716E90E77E94A0 /* Pods_Test_Framework_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774DE62A272BCB6C008FB06B = {
+			isa = PBXGroup;
+			children = (
+				774DE635272BCB6C008FB06B /* ml-kit-firebase-issue-sample */,
+				774DE64C272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests */,
+				774DE656272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests */,
+				915A97A1272BCD5A0012D349 /* Test_Framework_1 */,
+				915A97AF272BCD5A0012D349 /* Test_Framework_1Tests */,
+				774DE634272BCB6C008FB06B /* Products */,
+				32B3296E53D0A3A39CF8AAC9 /* Pods */,
+				606315881CC226104E4110D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		774DE634272BCB6C008FB06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				774DE633272BCB6C008FB06B /* ml-kit-firebase-issue-sample.app */,
+				774DE649272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests.xctest */,
+				774DE653272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests.xctest */,
+				915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */,
+				915A97A9272BCD5A0012D349 /* Test_Framework_1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774DE635272BCB6C008FB06B /* ml-kit-firebase-issue-sample */ = {
+			isa = PBXGroup;
+			children = (
+				774DE636272BCB6C008FB06B /* AppDelegate.swift */,
+				774DE638272BCB6C008FB06B /* SceneDelegate.swift */,
+				774DE63A272BCB6C008FB06B /* ViewController.swift */,
+				774DE63C272BCB6C008FB06B /* Main.storyboard */,
+				774DE63F272BCB71008FB06B /* Assets.xcassets */,
+				774DE641272BCB71008FB06B /* LaunchScreen.storyboard */,
+				774DE644272BCB71008FB06B /* Info.plist */,
+			);
+			path = "ml-kit-firebase-issue-sample";
+			sourceTree = "<group>";
+		};
+		774DE64C272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				774DE64D272BCB72008FB06B /* ml_kit_firebase_issue_sampleTests.swift */,
+			);
+			path = "ml-kit-firebase-issue-sampleTests";
+			sourceTree = "<group>";
+		};
+		774DE656272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				774DE657272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITests.swift */,
+				774DE659272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITestsLaunchTests.swift */,
+			);
+			path = "ml-kit-firebase-issue-sampleUITests";
+			sourceTree = "<group>";
+		};
+		915A97A1272BCD5A0012D349 /* Test_Framework_1 */ = {
+			isa = PBXGroup;
+			children = (
+				915A97A2272BCD5A0012D349 /* Test_Framework_1.h */,
+				915A97A3272BCD5A0012D349 /* Test_Framework_1.docc */,
+			);
+			path = Test_Framework_1;
+			sourceTree = "<group>";
+		};
+		915A97AF272BCD5A0012D349 /* Test_Framework_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				915A97B0272BCD5A0012D349 /* Test_Framework_1Tests.swift */,
+			);
+			path = Test_Framework_1Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		915A979B272BCD5A0012D349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915A97B2272BCD5A0012D349 /* Test_Framework_1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		774DE632272BCB6C008FB06B /* ml-kit-firebase-issue-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774DE65D272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sample" */;
+			buildPhases = (
+				D16A6C1954022FEA02C26DC6 /* [CP] Check Pods Manifest.lock */,
+				774DE62F272BCB6C008FB06B /* Sources */,
+				774DE630272BCB6C008FB06B /* Frameworks */,
+				774DE631272BCB6C008FB06B /* Resources */,
+				915A97B7272BCD5A0012D349 /* Embed Frameworks */,
+				A9BD6C3317429269C4A67FBE /* [CP] Embed Pods Frameworks */,
+				8FEDCD0797A48ECC944597E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915A97B4272BCD5A0012D349 /* PBXTargetDependency */,
+			);
+			name = "ml-kit-firebase-issue-sample";
+			productName = "ml-kit-firebase-issue-sample";
+			productReference = 774DE633272BCB6C008FB06B /* ml-kit-firebase-issue-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		774DE648272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774DE660272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sampleTests" */;
+			buildPhases = (
+				774DE645272BCB72008FB06B /* Sources */,
+				774DE646272BCB72008FB06B /* Frameworks */,
+				774DE647272BCB72008FB06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774DE64B272BCB72008FB06B /* PBXTargetDependency */,
+			);
+			name = "ml-kit-firebase-issue-sampleTests";
+			productName = "ml-kit-firebase-issue-sampleTests";
+			productReference = 774DE649272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		774DE652272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774DE663272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sampleUITests" */;
+			buildPhases = (
+				774DE64F272BCB72008FB06B /* Sources */,
+				774DE650272BCB72008FB06B /* Frameworks */,
+				774DE651272BCB72008FB06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774DE655272BCB72008FB06B /* PBXTargetDependency */,
+			);
+			name = "ml-kit-firebase-issue-sampleUITests";
+			productName = "ml-kit-firebase-issue-sampleUITests";
+			productReference = 774DE653272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		915A979F272BCD5A0012D349 /* Test_Framework_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915A97BC272BCD5A0012D349 /* Build configuration list for PBXNativeTarget "Test_Framework_1" */;
+			buildPhases = (
+				E8C0B8668DBB0BD5E8E93A43 /* [CP] Check Pods Manifest.lock */,
+				915A979B272BCD5A0012D349 /* Headers */,
+				915A979C272BCD5A0012D349 /* Sources */,
+				915A979D272BCD5A0012D349 /* Frameworks */,
+				915A979E272BCD5A0012D349 /* Resources */,
+				CD56C265389612678DE5857A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_Framework_1;
+			productName = Test_Framework_1;
+			productReference = 915A97A0272BCD5A0012D349 /* Test_Framework_1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		915A97A8272BCD5A0012D349 /* Test_Framework_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915A97BD272BCD5A0012D349 /* Build configuration list for PBXNativeTarget "Test_Framework_1Tests" */;
+			buildPhases = (
+				915A97A5272BCD5A0012D349 /* Sources */,
+				915A97A6272BCD5A0012D349 /* Frameworks */,
+				915A97A7272BCD5A0012D349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915A97AC272BCD5A0012D349 /* PBXTargetDependency */,
+				915A97AE272BCD5A0012D349 /* PBXTargetDependency */,
+			);
+			name = Test_Framework_1Tests;
+			productName = Test_Framework_1Tests;
+			productReference = 915A97A9272BCD5A0012D349 /* Test_Framework_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774DE62B272BCB6C008FB06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					774DE632272BCB6C008FB06B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					774DE648272BCB72008FB06B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 774DE632272BCB6C008FB06B;
+					};
+					774DE652272BCB72008FB06B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 774DE632272BCB6C008FB06B;
+					};
+					915A979F272BCD5A0012D349 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					915A97A8272BCD5A0012D349 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 774DE632272BCB6C008FB06B;
+					};
+				};
+			};
+			buildConfigurationList = 774DE62E272BCB6C008FB06B /* Build configuration list for PBXProject "ml-kit-firebase-issue-sample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 774DE62A272BCB6C008FB06B;
+			productRefGroup = 774DE634272BCB6C008FB06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				774DE632272BCB6C008FB06B /* ml-kit-firebase-issue-sample */,
+				774DE648272BCB72008FB06B /* ml-kit-firebase-issue-sampleTests */,
+				774DE652272BCB72008FB06B /* ml-kit-firebase-issue-sampleUITests */,
+				915A979F272BCD5A0012D349 /* Test_Framework_1 */,
+				915A97A8272BCD5A0012D349 /* Test_Framework_1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		774DE631272BCB6C008FB06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774DE643272BCB71008FB06B /* LaunchScreen.storyboard in Resources */,
+				774DE640272BCB71008FB06B /* Assets.xcassets in Resources */,
+				774DE63E272BCB6C008FB06B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE647272BCB72008FB06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE651272BCB72008FB06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A979E272BCD5A0012D349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A97A7272BCD5A0012D349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FEDCD0797A48ECC944597E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BD6C3317429269C4A67FBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ml-kit-firebase-issue-sample/Pods-ml-kit-firebase-issue-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD56C265389612678DE5857A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test_Framework_1/Pods-Test_Framework_1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test_Framework_1/Pods-Test_Framework_1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test_Framework_1/Pods-Test_Framework_1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16A6C1954022FEA02C26DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ml-kit-firebase-issue-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8C0B8668DBB0BD5E8E93A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test_Framework_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		774DE62F272BCB6C008FB06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774DE63B272BCB6C008FB06B /* ViewController.swift in Sources */,
+				774DE637272BCB6C008FB06B /* AppDelegate.swift in Sources */,
+				774DE639272BCB6C008FB06B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE645272BCB72008FB06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774DE64E272BCB72008FB06B /* ml_kit_firebase_issue_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774DE64F272BCB72008FB06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774DE658272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITests.swift in Sources */,
+				774DE65A272BCB72008FB06B /* ml_kit_firebase_issue_sampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A979C272BCD5A0012D349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915A97A4272BCD5A0012D349 /* Test_Framework_1.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A97A5272BCD5A0012D349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915A97B1272BCD5A0012D349 /* Test_Framework_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		774DE64B272BCB72008FB06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774DE632272BCB6C008FB06B /* ml-kit-firebase-issue-sample */;
+			targetProxy = 774DE64A272BCB72008FB06B /* PBXContainerItemProxy */;
+		};
+		774DE655272BCB72008FB06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774DE632272BCB6C008FB06B /* ml-kit-firebase-issue-sample */;
+			targetProxy = 774DE654272BCB72008FB06B /* PBXContainerItemProxy */;
+		};
+		915A97AC272BCD5A0012D349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 915A979F272BCD5A0012D349 /* Test_Framework_1 */;
+			targetProxy = 915A97AB272BCD5A0012D349 /* PBXContainerItemProxy */;
+		};
+		915A97AE272BCD5A0012D349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 774DE632272BCB6C008FB06B /* ml-kit-firebase-issue-sample */;
+			targetProxy = 915A97AD272BCD5A0012D349 /* PBXContainerItemProxy */;
+		};
+		915A97B4272BCD5A0012D349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 915A979F272BCD5A0012D349 /* Test_Framework_1 */;
+			targetProxy = 915A97B3272BCD5A0012D349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		774DE63C272BCB6C008FB06B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774DE63D272BCB6C008FB06B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		774DE641272BCB71008FB06B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774DE642272BCB71008FB06B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774DE65B272BCB72008FB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		774DE65C272BCB72008FB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774DE65E272BCB72008FB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A418EBBEFDE1603C268F896B /* Pods-ml-kit-firebase-issue-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ml-kit-firebase-issue-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		774DE65F272BCB72008FB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A6D6C54752DF6B7FB080FC /* Pods-ml-kit-firebase-issue-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ml-kit-firebase-issue-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		774DE661272BCB72008FB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ml-kit-firebase-issue-sample.app/ml-kit-firebase-issue-sample";
+			};
+			name = Debug;
+		};
+		774DE662272BCB72008FB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ml-kit-firebase-issue-sample.app/ml-kit-firebase-issue-sample";
+			};
+			name = Release;
+		};
+		774DE664272BCB72008FB06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ml-kit-firebase-issue-sample";
+			};
+			name = Debug;
+		};
+		774DE665272BCB72008FB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idenfy.ml-kit-firebase-issue-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ml-kit-firebase-issue-sample";
+			};
+			name = Release;
+		};
+		915A97B8272BCD5A0012D349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901C6C88EFAD7FBA1CD1F827 /* Pods-Test_Framework_1.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idenfy.Test-Framework-1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		915A97B9272BCD5A0012D349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB704095BD8820CCFA975CC0 /* Pods-Test_Framework_1.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idenfy.Test-Framework-1";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		915A97BA272BCD5A0012D349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idenfy.Test-Framework-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ml-kit-firebase-issue-sample.app/ml-kit-firebase-issue-sample";
+			};
+			name = Debug;
+		};
+		915A97BB272BCD5A0012D349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2Q6RJ7JAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idenfy.Test-Framework-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ml-kit-firebase-issue-sample.app/ml-kit-firebase-issue-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		774DE62E272BCB6C008FB06B /* Build configuration list for PBXProject "ml-kit-firebase-issue-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774DE65B272BCB72008FB06B /* Debug */,
+				774DE65C272BCB72008FB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774DE65D272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774DE65E272BCB72008FB06B /* Debug */,
+				774DE65F272BCB72008FB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774DE660272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774DE661272BCB72008FB06B /* Debug */,
+				774DE662272BCB72008FB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774DE663272BCB72008FB06B /* Build configuration list for PBXNativeTarget "ml-kit-firebase-issue-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774DE664272BCB72008FB06B /* Debug */,
+				774DE665272BCB72008FB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915A97BC272BCD5A0012D349 /* Build configuration list for PBXNativeTarget "Test_Framework_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915A97B8272BCD5A0012D349 /* Debug */,
+				915A97B9272BCD5A0012D349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915A97BD272BCD5A0012D349 /* Build configuration list for PBXNativeTarget "Test_Framework_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915A97BA272BCD5A0012D349 /* Debug */,
+				915A97BB272BCD5A0012D349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774DE62B272BCB6C008FB06B /* Project object */;
+}
